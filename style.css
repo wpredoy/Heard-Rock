@@ -1,0 +1,91 @@
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.btnClass {
+    background-color: #218838;
+    color: #ffffff;
+    border: 0;
+    border-radius: 24px;
+    padding: 9px 20px;
+}
+.btnClass:hover {
+    border: none;
+    outline: none;
+}
+ul.songs {
+    list-style-type: none;
+    padding: 0;
+}
+ul.songs li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border-radius: 25px;
+}
+.resultContainer {
+    margin: 30px auto;
+    max-width: 100%;
+    width: 500px;
+}
+.resultContainer h2 {
+    font-weight: 300;
+}
+.resultContainer p {
+    text-align: center;
+}
+.resultContainer2 {
+    text-align: center;
+}
+.resultContainer2 h2 {
+    font-weight: 400;
+    text-align: center;
+}
+.resultContainer2 hr {
+    background-color: white;
+    width: 100px;
+    margin: 10px auto;
+    padding: 2px 0;
+}
+
+.well {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
